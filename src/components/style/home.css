@@ -93,3 +93,7 @@ body {
   .nav-link.active {
     color: rgb(9, 4, 4);
   }
+
+  .about__heading {
+    margin-top: 80px; /* Change the value to match the height of your navigation bar */
+  }

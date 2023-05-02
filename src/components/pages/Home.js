@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../style/home.css';
+import sosRecipes from '../assets/sosrecipes.png';
 
 export default function Home() {
   const [showProjects, setShowProjects] = useState(false);
@@ -30,13 +31,13 @@ export default function Home() {
           <h2 className="projects__heading">My Projects</h2>
           <div className="projects__card-container">
             <div className="card">
-              <img src="https://via.placeholder.com/350x200" alt="placeholder" />
+            <img src="https://via.placeholder.com/350x200" alt="placeholder" />
               <h3>Project 1</h3>
               <p>Description of Project 1</p>
             </div>
             <div className="card">
-              <img src="https://via.placeholder.com/350x200" alt="placeholder" />
-              <h3>Project 2</h3>
+            <img src={sosRecipes} alt="SOS Recipes Screenshot" />
+              <h3>SOS Recipes</h3>
               <p>Description of Project 2</p>
             </div>
             <div className="card">
