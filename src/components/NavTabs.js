@@ -8,7 +8,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
-          className={currentPage === 'Home' ? 'nav-link active text-light' : 'nav-link text-light'}
+          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
           Home
         </a>
@@ -17,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active text-light' : 'nav-link text-light'}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
           About
         </a>
@@ -26,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#blog"
           onClick={() => handlePageChange('Blog')}
-          className={currentPage === 'Blog' ? 'nav-link active text-light' : 'nav-link text-light'}
+          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
         >
           Blog
         </a>
@@ -35,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active text-light' : 'nav-link text-light'}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
         </a>
@@ -43,5 +43,6 @@ function NavTabs({ currentPage, handlePageChange }) {
     </ul>
   );
 }
+
 
 export default NavTabs;

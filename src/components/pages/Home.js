@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../style/home.css';
 import sosRecipes from '../assets/sosrecipes.png';
+import brewVentMaster from '../assets/BrewVentMaster.png';
 
 export default function Home() {
   const [showProjects, setShowProjects] = useState(false);
@@ -30,19 +31,19 @@ export default function Home() {
         <div id="projects-container" className="projects">
           <h2 className="projects__heading">My Projects</h2>
           <div className="projects__card-container">
-            <div className="card">
-            <img src="https://via.placeholder.com/350x200" alt="placeholder" />
-              <h3>Project 1</h3>
+            <a href="https://example.com" target="_blank" rel="noreferrer" className="card">
+              <h3>BrewVentMaster</h3>
+              <img src={brewVentMaster} alt="BrewVentMaster Screenshot" />
               <p>Description of Project 1</p>
-            </div>
-            <div className="card">
-            <img src={sosRecipes} alt="SOS Recipes Screenshot" />
+            </a>
+            <a href="https://example.com" target="_blank" rel="noreferrer" className="card">
               <h3>SOS Recipes</h3>
+              <img src={sosRecipes} alt="SOS Recipes Screenshot" />
               <p>Description of Project 2</p>
-            </div>
+            </a>
             <div className="card">
-              <img src="https://via.placeholder.com/350x200" alt="placeholder" />
               <h3>Project 3</h3>
+              <img src="https://via.placeholder.com/350x200" alt="placeholder" />
               <p>Description of Project 3</p>
             </div>
           </div>

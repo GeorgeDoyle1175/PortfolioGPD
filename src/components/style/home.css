@@ -1,9 +1,8 @@
 body {
-    text-shadow: 0 0 3px #000000;
     background-color: #1a1a1a;
   }
 
-.home {
+  .home {
     background-color: #1a1a1a;
     height: 100vh;
     display: flex;
@@ -78,8 +77,11 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+  }
+
+  .card h3 {
+    color: black;
   }
 
   .card:hover {
@@ -88,6 +90,7 @@ body {
 
   .card img {
     width: 100%;
+    padding: 10px;
   }
 
   .nav-link.active {
@@ -96,4 +99,124 @@ body {
 
   .about__heading {
     margin-top: 80px; /* Change the value to match the height of your navigation bar */
+  }
+
+  /* CSS FOR ABOUT PAGE */
+  .about {
+    background-color:#1a1a1a;
+    padding: 30px;
+    text-decoration-color: #f2f2f2;
+  }
+
+  .about__text-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .about__heading {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .about__paragraph {
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .about__card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: 700px;
+    overflow-y: auto;
+  }
+
+  .about_card {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .about_card:hover {
+    transform: translateY(-10px);
+  }
+
+  .about_card img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about_card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .about_card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+
+   /* CSS FOR CONTACT PAGE */
+   .contact {
+    background-color: #1c1c1c;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__form-label {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact__form-input,
+  .contact__form-textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    background-color: #333;
+    border: none;
+    color: #fff;
+  }
+
+  .contact__form-input:focus,
+  .contact__form-textarea:focus {
+    outline: none;
+  }
+
+  .contact__form-error {
+    display: block;
+    color: red;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
   }

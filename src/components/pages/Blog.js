@@ -4,7 +4,7 @@ export default function Blog() {
   return (
     <div className="home">
       <div className="home__text-container">
-        <h1 className="home__heading">Contact Page</h1>
+        <h1 className="home__heading">Resume</h1>
         <p className="home__paragraph">
           Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
           Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
