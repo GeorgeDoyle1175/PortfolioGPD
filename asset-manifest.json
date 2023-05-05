@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a72e490.css",
+    "main.js": "/static/js/main.9bcba084.js",
+    "static/media/BrewVentMaster.png": "/static/media/BrewVentMaster.be7e7441246d4f13e6e1.png",
+    "static/media/sosrecipes.png": "/static/media/sosrecipes.0148c27a3ac724b8e719.png",
+    "static/media/github-logo.png": "/static/media/github-logo.3ec61b93854178c47369.png",
+    "static/media/golf.png": "/static/media/golf.e0963f1f0b8d015f550c.png",
+    "static/media/harvardlogo.png": "/static/media/harvardlogo.bf439ea8f7230c3c385b.png",
+    "static/media/IMG_0038.jpeg": "/static/media/IMG_0038.9ae60ea31d7eda130d57.jpeg",
+    "static/media/Resume2023.pdf": "/static/media/Resume2023.fd7691d51c2d39caa4ff.pdf",
+    "static/media/Empire_Today-Logo.wine.png": "/static/media/Empire_Today-Logo.wine.a316eed88ab3f2ca5ed2.png",
+    "index.html": "/index.html",
+    "main.2a72e490.css.map": "/static/css/main.2a72e490.css.map",
+    "main.9bcba084.js.map": "/static/js/main.9bcba084.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a72e490.css",
+    "static/js/main.9bcba084.js"
+  ]
+}
