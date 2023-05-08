@@ -23,7 +23,7 @@ export default function Home() {
           project.
         </p>
         <button className="home__cta-button" onClick={handleViewWorkClick}>
-          View My Work
+          View My Portfolio
         </button>
       </div>
 
@@ -31,12 +31,12 @@ export default function Home() {
         <div id="projects-container" className="projects">
           <h2 className="projects__heading">My Projects</h2>
           <div className="projects__card-container">
-            <a href="https://example.com" target="_blank" rel="noreferrer" className="card">
+            <a href="https://georgedoyle1175.github.io/BeerEventFinder/" target="_blank" rel="noreferrer" className="card">
               <h3>BrewVentMaster</h3>
               <img src={brewVentMaster} alt="BrewVentMaster Screenshot" />
               <p>Description of Project 1</p>
             </a>
-            <a href="https://example.com" target="_blank" rel="noreferrer" className="card">
+            <a href="https://sosrecipes.herokuapp.com/" target="_blank" rel="noreferrer" className="card">
               <h3>SOS Recipes</h3>
               <img src={sosRecipes} alt="SOS Recipes Screenshot" />
               <p>Description of Project 2</p>

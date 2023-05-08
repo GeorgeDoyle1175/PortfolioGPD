@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 200px;
   }
 
   .home__text-container {
@@ -219,4 +219,135 @@ body {
     color: red;
     font-size: 1.2rem;
     margin-bottom: 1rem;
+  }
+
+  /* CSS FOR RESUME */
+
+  .resume-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+
+  .resume-home__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .resume-home__heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .resume-home__paragraph {
+    margin-bottom: 2rem;
+  }
+
+  .resume-home__link {
+    background-color: #0070f3;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+    padding: 100 px;
+  }
+
+  .resume-home__link:hover {
+    background-color: #1a73e8;
+  }
+
+  .resume-home__subheading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .resume-home__list {
+    margin-bottom: 2rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .resume-home__list li {
+    margin-bottom: 0.5rem;
+  }
+
+  /* CSS FOR FOOTER */
+
+  footer {
+    background-color:#333333;
+    color:  #f5f5f5;
+    padding: 10px ;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .social-buttons {
+    margin: 0;
+    padding-left: 100px;
+    width: 100%;
+    list-style: none;
+    display: flex; /* Add this line to enable Flexbox */
+    justify-content: left; /* Add this line to center the items horizontally */
+  }
+
+  .social-buttons li {
+    margin: 0 10px;
+  }
+
+  .social-buttons li a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 50%;
+    background-color: #1a73e8;
+  }
+
+  .social-buttons li a:hover {
+    background-color: #ffffff;
+    color: #1a73e8;
+    border: 2px solid #1a73e8;
+  }
+
+  .social-buttons li a i {
+    vertical-align: middle;
+  }
+
+  .social-buttons li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /*Headshot CSS*/
+
+  .headshot {
+    display: block;
+    margin: 0 auto;
+    max-height: 25vh;
+    border: 8px solid white;
+    border-radius: 1%;
   }
